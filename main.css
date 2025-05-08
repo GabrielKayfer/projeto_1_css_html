@@ -1,0 +1,254 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    padding: 16px 0;
+    background-color: #FF6554;
+    color: #ffd3c9 ;
+}
+
+.logo {
+    display: flex;
+    align-items: center;     /* alinha verticalmente #ffd3c*/
+    gap: 8px;                /* espaço entre imagem e texto */
+    font-family: "Merriweather", serif;
+    color: #ffffff;
+}
+
+.logo-icon {
+    height: 32px;
+    width: auto;
+}
+header h1 {
+    color: #ffffff;              
+    font-family: "Merriweather", serif;
+    font-style: normal;
+    font-size: 30px;
+}
+
+header nav li {
+    display: inline;
+    margin-left: 16px;
+}
+
+header nav li a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 16px;
+    margin-right: 24px;
+    font-family: "Montserrat Alternates", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.container {
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.search-form {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.search-form input {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.search-form button {
+    padding: 8px 16px;
+    background-color: #60b92ccb ;
+    color: #ffffff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.search-form button:hover {
+    background-color: #8edb62bb;
+}
+
+#opcoes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 80px 16px 40px; 
+    min-height: 60vh; 
+}
+
+#opcoes h2 {
+    font-size: 24px;
+    color: #000000;
+    text-align: center;
+    font-family: "Merriweather", serif;
+    margin-bottom: 20px;
+}
+
+.categorias {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 40px;
+    flex-wrap: wrap;
+}
+
+.categoria {
+    width: 280px;
+    text-align: center;
+    font-family: "Montserrat Alternates", sans-serif;
+}
+
+.categoria img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.categoria h3 {
+    margin-top: 16px;
+    color: #000000;
+    font-size: 20px;
+}
+
+.categoria p {
+    font-size: 14px;
+    margin-top: 8px;
+    color: #444;
+}
+
+body {
+    background-color: #ffe6e6;  
+}
+
+.categoria {
+    width: 280px;
+    text-align: center;
+    font-family: "Montserrat Alternates", sans-serif;
+    background-color: #ffffff;
+    border: 2px solid #ffd3c9;
+    border-radius: 12px;  
+    padding: 16px;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.categoria:hover {
+    background-color: #ffcbc1;
+    transform: scale(1.03);
+}
+
+.brands-list img {
+    height: 24px;
+}
+
+.brands-list li{
+    display: inline;
+    margin-right: 8px;
+}
+
+section .container {
+    align-items: flex-start;
+}
+
+section {
+    padding: 24px 0;
+}
+
+section h2 {
+    margin-bottom: 16px;
+}
+
+section {
+    color: #000000;
+}
+
+section p {
+    margin-bottom: 8px;
+}
+
+.store-front {
+    margin-right: 32px;
+}
+
+.social-links img {
+    height: 24px;
+    margin-right: 8px;
+}
+
+.social-links li {
+    display: inline;
+    margin-right: 8px;
+}
+
+.social-links li a {
+    text-decoration: none;
+}
+
+#contact .container {
+    display: block;
+}
+
+.contact-methods {
+    display: flex;
+    justify-content: space-between;
+}
+
+form input,
+form textarea {
+    display: block;
+    width: 320px;
+    margin-bottom: 8px;
+    padding: 8px;
+}
+
+form textarea {
+    resize: none;
+    height: 180px;
+}
+
+
+section h3 {
+    margin-bottom: 16px;   
+}
+
+form button {
+    background-color: #60b92ccb;
+    color: #ecf0f1;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+    font-weight: bold;
+}
+
+form button:hover {
+    background-color: #8edb62bb;
+}
+
+#contact form button {
+    width: 320px;
+}
+
+input:focus, textarea:focus {
+    outline-color: #000000;
+}
+
+footer {
+    background-color: #FF6554;
+    color:#ecf0f1;
+    padding: 16px 0;
+}
